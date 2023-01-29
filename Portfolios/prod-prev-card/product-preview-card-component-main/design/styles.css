@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700&family=Montserrat:wght@300;400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.nav-list{
+    padding: 30px 20px;
+}
+
+.nav-list a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    background-color: darkolivegreen;
+    color: wheat;
+    padding: 5px 32px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 7% 15%;
+    background-color: #f3eae3;
+    color: hsl(228, 12%, 48%);
+}
+
+
+.card-box{
+    background-color: #fff;
+    border-radius: 3%;
+}
+
+.card-image-desk{
+    position: relative;
+    right: 20px;
+    width: 110%;
+    border-radius: 3% 0 0 3%;
+}
+
+
+.intro-text{
+    margin-top: 3%;
+}
+
+
+.card-text-area{
+    padding: 3% 5%;
+    font-size: 14px;
+}
+
+
+.big-header{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.big-price{
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.exp-price{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: normal;
+    position: relative;
+    bottom: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+
+.btn{
+    margin-top: 10px;
+    color: #fff;
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 10%;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: hsl(158, 38%, 19%);
+}
+
+
+.ico{
+    color: #fff;
+}
+
+
+@media (max-width: 900px){
+    .card-image-desk{
+        width: 104%;
+        left: .5px;
+        border-radius: 3% 3% 0 0;
+    }    
+
+}
